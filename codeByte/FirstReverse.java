@@ -3,9 +3,9 @@ import java.io.*;
 
 class FirstReverse {
 
-  public static String firstReverse(String str) {
-      
-      return new StringBuilder(str).reverse().toString();
+  public static String firstReverse(String str) {  
+      StringBuilder sb = new StringBuilder(str);
+      return sb.reverse().toString();
   }
 
   public static void main (String[] args) {  

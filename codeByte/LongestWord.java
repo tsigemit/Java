@@ -6,11 +6,11 @@ class LongestWord {
     String splited[] = sen.split("[^A-Za-z0-9]");
     String answer = "";
     int len = 0;
-    for (int i = 0; i < splited.length; i++){
-    	if(splited[i].length()>len)
+    for (String s: splited) {
+    	if(s.length()>len)
     	{
-    		answer=splited[i];
-    	    len=splited[i].length();
+    		answer=s;
+    	    len=s.length();
     	}
 
     }

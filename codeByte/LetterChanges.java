@@ -8,7 +8,6 @@ class LetterChanges {
   	String vowels = "aeiou";
     for(int i=0; i<str.length(); i++){
     	char ch = str.charAt(i);
-    	
     	if(Character.isLetter(ch))
     	{
     	if(ch=='z')
