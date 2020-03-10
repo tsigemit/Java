@@ -1,0 +1,3 @@
+java file io operation
+there are more words in this to count 
+double words in words
